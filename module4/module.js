@@ -1,9 +1,9 @@
 
 function greeting(){
-	var name=["pankaj","junil","amit","january"];
+	var name=["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 for(var i=0;i< name.length;i++){
 	if(name[i].toLowerCase().charAt(0)=='j'){
-		console.log("Goodbye",name[i]);
+		console.log("Good Bye",name[i]);
 
 	}
 	else{
