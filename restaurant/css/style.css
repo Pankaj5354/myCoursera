@@ -1,0 +1,199 @@
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0px;
+	border:0px;
+}
+#logo{
+	background-image: url("../images/restaurant-logo_large.png");
+	height:150px;
+	width:150px;
+	margin: 10px 15px 20px 0px;
+	
+	
+	
+}
+
+body{
+	background-color: #900C3F;
+	margin-bottom:15px;
+	padding:10px;
+	font-size: 10px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration:none;
+}
+.navbar-brand p{
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+.navbar brand p span{
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone div{
+	color:green;
+	padding-right: 20px;
+}
+#nav-list span{
+	color:red;
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header button span{
+	border:1px solid red;
+}
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -3px;
+}
+
+#restaurantimage{
+	width:100%;
+	height:auto;
+	margin-bottom:15px;
+}
+#restaurantimage img{
+	height: 100%;
+	width: 100%;
+}
+#catlog{
+
+	width: 110%;
+	height: auto;
+}
+
+#catlog .column{
+	position:relative;
+	float:left;
+	border:1px solid blue;
+	margin-right:5px;
+	width:30%;
+	height: 300px;
+}
+#special{
+	background-image:url("../images/specials-tile.jpg");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#menu {
+	background-image:url("../images/menu-tile.jpg");
+	height: auto;
+	width: 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:1px solid blue;
+	
+}
+#catlog span{
+	text-align:center;
+	position:absolute;
+	bottom: 0;
+	background-color:white;
+	color:red;
+	font-size:20px;
+	height:30px;
+	width:100%;
+	opacity:0.5;
+}
+.menu-item{
+	text-align:center;
+	position:absolute;
+	bottom:0;
+	background-color:white;
+	opacity:0.5;
+	height:30px;
+	width:100%;
+	font-size:20px;
+	color:red;
+	margin-bottom: 0px;
+}
+
+@media(min-width:1200px){
+	
+}
+/*for medium devices*/
+@media(min-width: 992px) and (max-width: 1199px){
+	
+  
+}
+/*for small devices*/
+@media (min-width: 767px)and (max-width: 991px){
+#logo{
+	background-image: url("../images/restaurant-logo_small.png") no-repeat;
+	height:20px;
+	width:20px;
+	margin: 5px 10px 10px 0px;
+}
+
+
+}
+/*for extra small devices*/
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top:10px; 
+		height:80px;
+	}
+	.navbar-brand h1{
+		font-size:5vw;
+		padding-top:10px;
+	}
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size:.6em;
+		margin-top: 3px;
+	}
+	.navbar-brand  p img {
+		height:20px;
+	}
+	#catlog .column{
+		width:100%;
+	}
+	#special{
+       height:auto;
+       width:100%;
+	}
+	.menu-item{
+		background-color: green;
+	}
+
+}
+#collapsable-nav a{
+font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size:1em;
+	margin: 5px;
+}
+/*this code for bootstrap*/
+/*#special1{
+	background-image:url("../images/specials-tile.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:300px;
+}
+#menu1{
+	background-image:url("../images/menu-tile.jpg");
+	height:300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:1px solid blue;
+}
+.container{
+	border:1px solid blue;
+}
+*/
